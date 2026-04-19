@@ -1,0 +1,26 @@
+name: Deploy Frontend to Azure Storage
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'frontend/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Upload to Azure Blob Storage
+        uses: azure/CLI@v1
+        with:
+          azcliversion: latest
+          inlineScript: |
+            az storage blob upload-batch \
+              --account-name cloudstoragecd \
+              --account-key "${{ secrets.AZURE_STORAGE_KEY }}" \
+              --destination '$web' \
+              --source ./frontend/ \
+              --overwrite true
