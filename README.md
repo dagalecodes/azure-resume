@@ -77,15 +77,14 @@ azure-resume/
 6. Any push to `frontend/` automatically deploys via **GitHub Actions**
 
 ## 📜 Certifications
-- ✅ AZ-900: Microsoft Azure Fundamentals (2022)
-- ✅ AZ-104: Microsoft Azure Administrator (2023)
-- ✅ HashiCorp Terraform Associate (2024)
+- ✅ AZ-900: Microsoft Azure Fundamentals (2025)
+- ✅ AZ-104: Microsoft Azure Administrator (2025)
 
 ## 👤 Author
 **Christian Dagale**
 - 🌐 [www.christiandagale.com](https://www.christiandagale.com)
 - 📧 [dagale.codes@gmail.com](mailto:dagale.codes@gmail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/ChristianDagale)
+- 💼 [LinkedIn](https://www.linkedin.com/in/christian-dagale-2a668b321?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 - 🐙 [GitHub](https://github.com/dagalecodes)
 
 ## 🙏 Reference
